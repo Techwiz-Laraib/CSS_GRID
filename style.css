@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0%;
+    
+}
+body{ background-image: url(R.jpg);}
+.navbar{ color: white;
+    background-color: rgb(176, 31, 225);
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+justify-content: start;
+gap: 10px;
+align-items: center;
+    }
+   
+ .icon{
+        height: 50px;
+    }
+ .search{ 
+        cursor: inherit;
+        border-radius: 5px;
+        height: 40px;
+        width: 300px;
+        background-color: rgba(255, 235, 205, 0.272);
+        position: relative;
+        bottom: 50px;
+        left: 500px;
+        color: black; }
+.links{ position: relative;
+      left: 900px;
+    display: flex;
+     flex-direction: row;
+      gap: 5px;}
+      .github{ height: 30px;
+        position: relative;
+         bottom: 90px; }
+     .twitter{ height: 25px;
+         position: relative;
+         bottom: 86px; }
+     .circle{
+         height: 18px;
+          position: relative;
+         bottom: 84px; }
+     .hr{
+      position: relative;
+      left: 10px;
+      bottom: 90px; }
+    .code{ color: azure;
+         position: relative;
+          left: 20px;
+         bottom: 80px; }
+    .hr2{position: relative;
+        bottom: 90px;
+         left: 50px;
+                    }
+    .brightness{ height: 20px;
+         position: relative;
+         left: 60px;
+        bottom: 85px;}
+    .options{
+        position: relative;
+        bottom: 80px;
+        left: 65px;
+    }
+
+     
+    
+
+
+    
+    
+
+
+
+
+
